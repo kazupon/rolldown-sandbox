@@ -1,0 +1,16 @@
+{
+  "name": "simple",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node rolldown.js"
+  },
+  "devDependencies": {
+    "@rolldown/node": "^0.0.5",
+    "@rollup/plugin-replace": "^5.0.5",
+    "typescript": "^5.4.2"
+  },
+  "dependencies": {
+    "vue": "^3.4.21"
+  }
+}
